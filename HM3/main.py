@@ -1,6 +1,15 @@
 class Mydatetime():
     days_in_months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    def __init__(self, timestep):
+    def __init__(self, timestep: int, timezone: str):
+        h, m = list(map(int, timezone.split(":")))
+        factor = h
+        if m != 0:
+            if m != 30:
+                raise TypeError("Не существует такого часового пояса...")
+            factor += 0.5
+
+        timestep += int(3600 * factor)
+
         self.year = 1970
 
         self.second = timestep % 60
@@ -18,8 +27,8 @@ class Mydatetime():
         self.month, self.day = self.get_month(self.day, self.year, self.days_in_months)
 
     def __str__(self):
-        return(f'{self.year}-{self.month}-{self.day} '
-               f'{self.hour}:{self.minute}:{self.second}')
+        return(f'{self.year:0004}-{self.month:02}-{self.day:02} '
+               f'{self.hour:02}:{self.minute:02}:{self.second:02}')
 
     @staticmethod
     def get_year(days, year):
@@ -53,7 +62,7 @@ if __name__ == "__main__":
     TASK_2 = False   # Решить задачу №2
 
     if TASK_1:
-        mdt = Mydatetime(int(input()))
+        mdt = Mydatetime(int(input("Timestep: ")), input("Timezone ±00:00: "))
         print(mdt.__str__())
     if TASK_2:
         arr = list(map(int, input().split(' ')))
