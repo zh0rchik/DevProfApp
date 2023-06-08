@@ -1,0 +1,13 @@
+<html>
+<head>
+  <title>Удалить медицинскую запись</title>
+</head>
+<body>
+  <h1>Удалить медицинскую запись</h1>
+  <p>Вы уверены, что хотите удалить эту медицинскую запись?</p>
+  <form method="POST">
+    {% csrf_token %}
+    <button type="submit">Удалить</button>
+  </form>
+</body>
+</html>

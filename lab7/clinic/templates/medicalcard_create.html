@@ -1,0 +1,8 @@
+<!-- medicalcard_create.html -->
+<h1>Создание медицинской карты</h1>
+
+<form method="POST">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <input type="submit" value="Создать">
+</form>
