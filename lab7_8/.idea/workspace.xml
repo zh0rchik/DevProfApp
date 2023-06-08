@@ -5,15 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b4e3012-f1a1-4de5-b53a-b70fe7c2da68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/clinic/templates/exp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinic/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinic/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinic/templates/register_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DevProfApp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HM2/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM2/.idea/HM2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM2/.idea/HM2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM2/Animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM2/Animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HM3/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM3/.idea/HM3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM3/.idea/HM3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HM3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HM3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/.idea/lab1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/lab2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/.idea/lab2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/processing_source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/processing_source.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/source.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/lab3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/lab3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/lab3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab3.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.idea/lab4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/lab4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/.idea/lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/.idea/lab6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab6/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/clinic/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/clinic/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/clinic/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/clinic/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/clinic/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/clinic/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/clinic/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/clinic/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/clinic/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/clinic/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/clinic/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/clinic/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/lab7/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/lab7/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/lab7/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/lab7/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/lab7/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/lab7/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/lab7/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/lab7/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab7/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lab7/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clinic/templates/doctor_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/clinic/templates/doctor_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab7/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab7/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab7/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +83,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "//wsl$/Ubuntu/home/zh0rchik/mycode/RPP/DevProfApp/lab7/clinic/templates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu/home/zh0rchik/mycode/RPP/DevProfApp/lab7/clinic/templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="\\wsl$\Ubuntu\home\zh0rchik\mycode\RPP\DevProfApp\lab7\clinic\templates" />
