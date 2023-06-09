@@ -1,0 +1,70 @@
+<!-- doctor_create.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        body {
+          margin: 0;
+          padding: 0;
+        }
+    
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          background-color: black;
+          display: flex;
+          justify-content: space-around;
+        }
+    
+        ul li {
+          display: inline;
+          margin-right: 10px;
+        }
+    
+        ul li a {
+          text-decoration: none;
+          color: white;
+          display: block;
+          padding: 10px 20px;
+        }
+    
+        h1 {
+          color: #333;
+        }
+    
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          border: 1px solid black;
+        }
+    
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+          text-align: left;
+        }
+    
+        th {
+          background-color: #f2f2f2;
+        }
+    
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+    
+        form {
+          margin-top: 20px;
+        }
+      </style>
+    <title>Добавить врача</title>
+</head>
+<body>
+    <h1>Добавить врача</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Сохранить</button>
+    </form>
+</body>
+</html>

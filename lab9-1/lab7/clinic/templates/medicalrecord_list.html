@@ -1,0 +1,99 @@
+<html>
+<head>
+    <style type="text/css">
+        body {
+          margin: 0;
+          padding: 0;
+        }
+    
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          background-color: black;
+          display: flex;
+          justify-content: space-around;
+        }
+    
+        ul li {
+          display: inline;
+          margin-right: 10px;
+        }
+    
+        ul li a {
+          text-decoration: none;
+          color: white;
+          display: block;
+          padding: 10px 20px;
+        }
+    
+        h1 {
+          color: #333;
+        }
+    
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          border: 1px solid black;
+        }
+    
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+          text-align: left;
+        }
+    
+        th {
+          background-color: #f2f2f2;
+        }
+    
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
+    
+        form {
+          margin-top: 20px;
+        }
+      </style>
+  <title>Список записей врачей на приёме</title>
+</head>
+<body>
+    <ul>
+        <li><a href="{% url 'visit_list' %}">История посещений</a></li>
+        <li><a href="{% url 'doctor_list' %}">Список врачей</a></li>
+        <li><a href="{% url 'patient_list' %}">Список пациентов</a></li>
+        <li><a href="{% url 'medicalcard_list' %}">Список медицинских карт</a></li>
+        <li><a href="{% url 'medicalrecord_list' %}">Список медицинских записей</a></li>
+        <li><a class="btn btn-primary" href="{% url 'logout' %}">Выйти</a></li>
+      </ul>
+  <h1>Список медицинских записей</h1>
+
+  <a href="{% url 'medicalrecord_create' %}">Добавить запись</a>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Посещение</th>
+        <th>Текст</th>
+        <th>Действия</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for record in records %}
+        <tr>
+          <td>{{ record.id }}</td>
+          <td>{{ record.visit.id }}</td>
+          <td>{{ record.text }}</td>
+          <td>
+            <a href="{% url 'medicalrecord_update' pk=record.pk %}">Редактировать</a>
+            <a href="{% url 'medicalrecord_delete' pk=record.pk %}">Удалить</a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+
+</body>
+</html>
