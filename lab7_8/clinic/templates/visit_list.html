@@ -1,0 +1,81 @@
+<html>
+<head>
+  <title>Посещений</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .visit-block {
+      background-color: #f9f9f9;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    .visit-block strong {
+      font-weight: bold;
+    }
+
+    .visit-block a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li><a href="{% url 'visit_list' %}">История посещений</a></li>
+    <li><a href="{% url 'doctor_list' %}">Список врачей</a></li>
+    <li><a href="{% url 'patient_list' %}">Список пациентов</a></li>
+    <li><a href="{% url 'medicalcard_list' %}">Список медицинских карт</a></li>
+    <li><a href="{% url 'medicalrecord_list' %}">Список медицинских записей</a></li>
+    <li><a class="btn btn-primary" href="{% url 'logout' %}">Выйти</a></li>
+  </ul>
+
+  <h1>История посещений</h1>
+
+  <a href="{% url 'visit_create' %}">Добавить посещение</a>
+
+  {% for visit in visits %}
+  <div class="visit-block">
+    <strong>{{ visit.id }}</strong>
+    <p>ФИО пациента: {{ visit.patient.full_name }}</p>
+    <p>ФИО врача: {{ visit.doctor.full_name }}</p>
+    <p>Причина обращения: {{ visit.reason }}</p>
+    <p>Длительность приёма: {{ visit.duration }} (сек)</p>
+    <a href="{% url 'visit_update' pk=visit.pk %}">Редактировать</a>
+    <a href="{% url 'visit_delete' pk=visit.pk %}">Удалить</a>
+  </div>
+  {% endfor %}
+
+</body>
+</html>

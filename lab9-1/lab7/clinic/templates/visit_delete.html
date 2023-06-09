@@ -1,0 +1,8 @@
+<h1>Удаление посещения</h1>
+
+<p>Вы уверены, что хотите удалить это посещение?</p>
+
+<form method="post">
+  {% csrf_token %}
+  <button type="submit">Удалить</button>
+</form>
